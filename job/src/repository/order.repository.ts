@@ -7,7 +7,6 @@ import { GetFunction } from '../types/index.types';
 const getOrderSet: GetFunction<OrderPagedQueryResponse> = async (queryArgs) => {
   // Fetch all the orders
   const { body } = await createApiRoot().orders().get({ queryArgs }).execute();
-  console.log(body)
 
 
 
