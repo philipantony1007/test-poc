@@ -32,13 +32,13 @@ deployAs:
         - key: AWS_S3_BUCKET_NAME
           description: bucketname
           required: true
-inheritAs:
-  configuration:
-    securedConfiguration:
-      - key: GLOBAL_SECURED_CONFIGURATION
-        description: This secured configuration will configuration will be applied to all applications
-        required: true
-    standardConfiguration:
-      - key: GLOBAL_STANDARD_CONFIGURATION
-        description: This standard configuration will configuration will be applied to all applications
-        required: true
+# inheritAs:
+#   configuration:
+#     securedConfiguration:
+#       - key: GLOBAL_SECURED_CONFIGURATION
+#         description: This secured configuration will configuration will be applied to all applications
+#         required: true
+#     standardConfiguration:
+#       - key: GLOBAL_STANDARD_CONFIGURATION
+#         description: This standard configuration will configuration will be applied to all applications
+#         required: true
